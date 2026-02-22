@@ -7,6 +7,9 @@ Recognition (OCR) and Harmonized System (HS) code classification.
 Today, the logistics company Jetcarrier manually assigns HS codes to orders.
 This study evaluates the feasibility of automating HS code assignment through machine learning.
 
+This work consist of extracting information from receipts using LLMs, then using various machine learning methods to classify receipt descriptions to the correct HS-codes.
+These various machine learning methods are compared.
+
 Large Language Models (LLM) are investigated for OCR to extract order descriptions from
 receipts. Several approaches for HS code classification based on text descriptions are also investigated. 
 The investigated methods are 
