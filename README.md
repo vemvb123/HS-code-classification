@@ -39,10 +39,11 @@ Results of text cleaning:
 
 First, the product descriptions were cleaned of noise. This means removing symbols, unneeded
 text, punctuation, and stop words. Then, apply spell correction, stemming, and lemmatization.
+
 The SentenceTransformer framework was used with all-MiniLM-L7v2 on the cleaned text descriptions. It maps the product descriptions to a 384-dimensional vector space. This sentence-
 transformer was used as it is fast and intended for short sentences, like the product descriptions.
-As the number of attributes increases, the need for more examples per output class grows ac-
-cordingly. The training time for the models also grow with the number of attributes. To address
+
+As the number of attributes increases, the need for more examples per output class grows accordingly. The training time for the models also grow with the number of attributes. To address
 this, Principal Component Analysis (PCA) was applied to reduce the vector dimensionality to
 100.
 
