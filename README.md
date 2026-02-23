@@ -8,6 +8,7 @@ Today, the logistics company Jetcarrier manually assigns HS codes to orders.
 This study evaluates the feasibility of automating HS code assignment through machine learning.
 
 This work consist of extracting information from receipts using LLMs, then using various machine learning methods to classify receipt descriptions to the correct HS-codes.
+
 These various machine learning methods are compared.
 
 Large Language Models (LLM) are investigated for OCR to extract order descriptions from
@@ -17,6 +18,7 @@ The investigated methods are
 - Large Language Models (LLMs)
 - Semantic Similarity Comparison (SSC)
 - Classic Supervised Classification models.
+- 
 These approaches’ strengths and weaknesses are showcased.
 
 ## Extraction of receipt information
